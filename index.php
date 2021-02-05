@@ -8,15 +8,20 @@
     <title>les sessions</title>
 </head>
 <body>
-    <div>
-        <form method="post" action="index.php">
-            <div>
-                <select name="color" id="id_color">
-                    <option value=""></option>
-                </select>
-            </div>
-        </form>
-    </div>
+
+    <form method="post" action="index.php">
+        <div>
+            <select name="color" id="id_color">
+                <option value="blue">blue</option>
+                <option value="red">red</option>
+                <option value="pink">pink</option>
+                <option value="green">green</option>
+                <option value="coral">coral</option>
+            </select>
+
+            <button type="submit">valider</button>
+        </div>
+    </form>
 
 
 </body>
